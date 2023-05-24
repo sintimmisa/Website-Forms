@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTMLCSS - Assignment 10</title>
+</head>
+<body>
+
+    <form action="" class="form">
+        <p>
+            <label for="fullname" class="sr-only">Full Name</label>
+            <input type="text" name="fullname" id="" placeholder="Full Name" required>
+        </p>
+
+        <p>
+            <label for="email" class="sr-only">Email</label>
+            <input type="email" name="email" id="" placeholder="Email" required minlength="8">
+        </p>
+
+        <p>
+            <label for="password" class="sr-only">Password</label>
+            <input type="password" name="password" id="" placeholder="Password" required>
+        </p>
+
+        <p>
+            <label for="c_password" class="sr-only">Confirm Password</label>
+            <input type="password" name="c_password" id="" placeholder="Confirm Password">
+        </p>
+        
+        <p>
+            <label for="dob" class="sr-only">Date of Birth</label>
+            <input type="date" name="dob" id="" placeholder="Date of Birth">
+        </p>
+        <p>
+            <label for="gender" class="sr-only">Gender</label>
+            <input type="radio" name=gender" id="" value="Male">
+            <label for="male">Male</label>
+
+            <input type="radio" name=gender" id="" value="Female">
+            <label for="female">Female</label>
+
+            <input type="radio" name=other" id="" value="other">
+            <label for="other">Other</label>
+        </p>
+
+        <p>
+            <label for="country" class="sr-only">Select Country</label>
+            <select name="country" id="country">
+                <option value="ghana">Ghana</option>
+                <option value="uk">UK</option>
+                <option value="us">US</option>
+                <option value="canada">Canada</option>
+            </select>
+        </p>
+
+        <p>
+            
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">I agree to the Terms and Conditions</label>
+        </p>
+
+        <p>
+            <label for="msg" class="sr-only">Message</label>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+        </p>
+
+        <input type="submit" value="Submit">
+
+    </form>
+    
+</body>
+</html>
