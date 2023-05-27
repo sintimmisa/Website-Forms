@@ -8,3 +8,39 @@
 .sr-only{
     display: none !important;
 }
+
+.container{
+    width: 500px;
+    margin: 100px auto;
+    background-color: #d6d5d530;
+    padding: 50px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #7a7a7a;
+}
+
+.form input[type="text"], .form input[type="textarea"],.form input[type="email"],.form input[type="password"],.form input[type="date"]{
+    width:100%;
+    padding: 5px;
+}
+select, textarea{
+    width:100%;
+    padding: 5px;
+}
+
+.form p{
+    padding: 10px;
+}
+
+.btn{
+width:100%;
+padding: 10px;
+background-color: orangered;
+color:white;
+}
+
+
+
+.navbar{
+    display:none;
+}
+
